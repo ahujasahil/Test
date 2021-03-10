@@ -19,5 +19,8 @@
     </div>
     <button *ngIf="isEdit" (click)="updatePost()" class="btn btn-warning btn-block">Update Post</button>
     <button *ngIf="!isEdit" (click)="addPost(title.value, body.value)" class="btn btn-dark btn-block">Add Post</button>
+    <div>
+      <h6>Note: The added post will be shown on the top in place of 1st Post.</h6>
+    </div>
   </form>
 </div>

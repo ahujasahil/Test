@@ -1,0 +1,13 @@
+<nav class="navbar navbar-dark bg-primary mb-4 navbar-expand">
+  <div class="container">
+    <a [routerLink]="['/']" routerLinkActive="router-link-active" class="navbar-brand">Angular Osos Task</a>
+    <div>
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+          <a [routerLink]="['/']" routerLinkActive="router-link-active" class="nav-link">Posts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
